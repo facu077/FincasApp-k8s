@@ -1,0 +1,16 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["fincasApp-uaa"],
+    "directoryPath": "../",
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "ZDI0ZGRiOGEzNGEyNDRmNWNiZTU2M2E0YWZkMTRhNzYyY2Y1MTZhMDFjZTdiYzdjNTI1M2YwMDhmMjZkYjEwMWUyZjg4YzFlZTAzOTMwYTJmYTY5NTUwYjMwOGI3ZWM3YWVhNg==",
+    "dockerRepositoryName": "facu077",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "ingressDomain": "",
+    "monitoring": "no",
+    "istio": false
+  }
+}

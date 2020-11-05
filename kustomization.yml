@@ -1,0 +1,13 @@
+commonLabels:
+  app.kubernetes.io/genereted-by: JHipster
+
+resources:
+  # Individual apps
+  - fincasappuaa-k8s/fincasappuaa-deployment.yml
+  - fincasappuaa-k8s/fincasappuaa-service.yml
+  - fincasappuaa-k8s/fincasappuaa-mysql.yml
+  # service discovery eureka/consul
+  - registry-k8s/jhipster-registry.yml
+  - registry-k8s/application-configmap.yml
+
+patchesJson6902:
