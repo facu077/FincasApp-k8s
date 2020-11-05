@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: fincasms
+  namespace: default
+  labels:
+    app: fincasms
+spec:
+  selector:
+    app: fincasms
+  ports:
+    - name: http
+      port: 8090

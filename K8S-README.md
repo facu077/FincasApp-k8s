@@ -5,6 +5,8 @@
 You will need to push your image to a registry. If you have not done so, use the following commands to tag and push the images:
 
 ```
+$ docker image tag fincasms facu077/fincasms
+$ docker push facu077/fincasms
 $ docker image tag fincasappuaa facu077/fincasappuaa
 $ docker push facu077/fincasappuaa
 ```

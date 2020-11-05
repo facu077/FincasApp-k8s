@@ -3,6 +3,9 @@ commonLabels:
 
 resources:
   # Individual apps
+  - fincasms-k8s/fincasms-deployment.yml
+  - fincasms-k8s/fincasms-service.yml
+  - fincasms-k8s/fincasms-mysql.yml
   - fincasappuaa-k8s/fincasappuaa-deployment.yml
   - fincasappuaa-k8s/fincasappuaa-service.yml
   - fincasappuaa-k8s/fincasappuaa-mysql.yml

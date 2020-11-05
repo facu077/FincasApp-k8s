@@ -25,6 +25,7 @@ logSummary() {
 default() {
     suffix=k8s
     kubectl apply -f registry-${suffix}/
+    kubectl apply -f fincasms-${suffix}/
     kubectl apply -f fincasappuaa-${suffix}/
 
 }

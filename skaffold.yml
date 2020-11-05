@@ -2,6 +2,9 @@ apiVersion: skaffold/v1
 kind: Config
 build:
   artifacts:
+    - image: facu077/fincasms
+      context: ../fincas-microservice
+      jib: {}
     - image: facu077/fincasappuaa
       context: ../fincasApp-uaa
       jib: {}
